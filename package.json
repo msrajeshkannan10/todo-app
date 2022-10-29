@@ -15,7 +15,10 @@
     "web-vitals": "^2.1.4",
     "yarn": "^1.22.19"
   },
+  "homepage": "https://msrajeshkannan10.github.io/todo-app/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
